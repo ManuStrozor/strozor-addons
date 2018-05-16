@@ -8,6 +8,6 @@
         <setting id="debug" type="bool" label="32013" default="false"/>
     </category>
     <category label="32010">
-        <setting label="32032" type="action" action="RunScript(my.addon.id, downloadreport)"/>
+        <setting label="32032" type="action" action="RunScript(script.mynewscript, downloadreport)"/>
     </category>
 </settings>
