@@ -2,8 +2,8 @@
 <addons>
 <addon  id="script.mynewscript"
         name="My new script"
-        version="0.0.3"
-        provider-name="Emmanuel T.D.">
+        version="0.0.4"
+        provider-name="ManuStrozor">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
     </requires>
@@ -27,7 +27,28 @@
         </assets>
     </extension>
 </addon>
-
+<addon  id="plugin.video.tmdblists"
+        name="My TMDB Lists"
+        version="0.0.1"
+        provider-name="ManuStrozor">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>All your TMDB lists in one place</summary>
+        <description>This plugin shows you your TMDB lists</description>
+        <disclaimer>You must create an account on themoviedb.org before using this plugin!</disclaimer>
+        <source>https://github.com/ManuStrozor/strozor-addons/</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 <addon  id="repository.strozor"
         name="Strozor Repository"
         version="0.0.1"
