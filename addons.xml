@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon  id="script.mynewscript"
+        name="My new script"
+        version="0.0.1"
+        provider-name="Emmanuel T.D.">
+    <requires>
+        <import addon="xbmc.python" version="2.13.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Just a simple test script</summary>
+        <description>This script is totaly useless !</description>
+        <disclaimer>Use it at your own risks...</disclaimer>
+        <website></website>
+        <source>https://github.com/ManuStrozor/script.mynewscript.git</source>
+        <license></license>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>screenshots/screen.png</screenshot>
+        </assets>
+        <news></news>
+    </extension>
+</addon>
+
+<addon  id="repository.strozor"
+        name="Strozor Repository"
+        version="0.0.1"
+        provider-name="Emmanuel T.D.">
+    <extension point="xbmc.addon.repository" name="Strozor XBMC Addon Repository">
+        <checksum>https://raw.githubusercontent.com/ManuStrozor/Kodi-Strozor/master/addons.xml.md5</checksum>
+        <info compressed="false">https://raw.githubusercontent.com/ManuStrozor/Kodi-Strozor/master/addons.xml</info>
+        <datadir zip="true">https://github.com/ManuStrozor/Kodi-Strozor/raw/master</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr">Strozor Repository</summary>
+        <description lang="fr">Installer Strozor</description>
+        <summary lang="en">Strozor Repository</summary>
+        <description lang="en">Download and install Strozor</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
