@@ -2,12 +2,14 @@
 <addons>
 <addon  id="script.mynewscript"
         name="My new script"
-        version="0.0.2"
+        version="0.0.3"
         provider-name="Emmanuel T.D.">
     <requires>
-        <import addon="xbmc.python" version="2.13.0"/>
+        <import addon="xbmc.python" version="2.14.0"/>
     </requires>
-    <extension point="xbmc.python.script" library="addon.py"/>
+    <extension point="xbmc.python.script" library="addon.py">
+        <provides>executable</provides>
+    </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary>Just a simple test script</summary>
@@ -19,9 +21,10 @@
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
-            <screenshot>screenshots/screen.png</screenshot>
+            <screenshot>screenshots/screenshot-01.jpg</screenshot>
+            <screenshot>screenshots/screenshot-02.jpg</screenshot>
+            <screenshot>screenshots/screenshot-03.jpg</screenshot>
         </assets>
-        <news></news>
     </extension>
 </addon>
 

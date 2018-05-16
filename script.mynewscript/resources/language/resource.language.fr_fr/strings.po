@@ -18,17 +18,29 @@ msgstr ""
 "X-Generator: Poedit 1.8.4\n"
 
 msgctxt "#32001"
-msgid "Recommended"
-msgstr "Recommandé"
+msgid "General"
+msgstr "Général"
 
 msgctxt "#32002"
-msgid "Random Items"
-msgstr "Eléments aléatoires"
+msgid "Secondary"
+msgstr "Secondaire"
+
+msgctxt "#32003"
+msgid "Username"
+msgstr "Nom d'utilisateur"
 
 msgctxt "#32004"
-msgid "Randomize time (minutes)"
-msgstr "Randomiser le temps (minutes)"
+msgid "Password"
+msgstr "Mot de passe"
 
 msgctxt "#32005"
-msgid "Use season folders"
-msgstr "Utiliser les dossiers de la saison"
+msgid "Max length"
+msgstr "Taille maximale"
+
+msgctxt "#32006"
+msgid "Debug mode"
+msgstr "Mode debug"
+
+msgctxt "#32007"
+msgid "Run script"
+msgstr "Run script"
