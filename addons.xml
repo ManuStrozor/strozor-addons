@@ -2,7 +2,7 @@
 <addons>
 <addon  id="script.mynewscript"
         name="My new script"
-        version="0.0.1"
+        version="0.0.2"
         provider-name="Emmanuel T.D.">
     <requires>
         <import addon="xbmc.python" version="2.13.0"/>
