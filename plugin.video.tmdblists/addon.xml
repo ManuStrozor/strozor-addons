@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon 	id="plugin.video.tmdblists"
 		name="My TMDB Lists"
-		version="0.0.1"
+		version="0.0.2"
 		provider-name="ManuStrozor">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
@@ -16,8 +16,8 @@
 		<disclaimer>You must create an account on themoviedb.org before using this plugin!</disclaimer>
 		<source>https://github.com/ManuStrozor/strozor-addons/</source>
 		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
 </addon>
