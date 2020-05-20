@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon 	id="script.mynewscript"
+<addon 	id="plugin.program.mynewscript"
 		name="My new script"
-		version="0.0.4"
+		version="0.0.1"
 		provider-name="ManuStrozor">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
@@ -18,11 +18,11 @@
 		<source>https://github.com/ManuStrozor/strozor-addons/</source>
 		<license></license>
 		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>screenshots/screenshot-01.jpg</screenshot>
-            <screenshot>screenshots/screenshot-02.jpg</screenshot>
-            <screenshot>screenshots/screenshot-03.jpg</screenshot>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>
