@@ -14,7 +14,7 @@
 		<summary>All your TMDB lists in one place</summary>
 		<description>This plugin shows you your TMDB lists</description>
 		<disclaimer>You must create an account on themoviedb.org before using this plugin!</disclaimer>
-		<source>https://github.com/ManuStrozor/strozor-addons/</source>
+		<source>http://strozor-addons.ovh</source>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
